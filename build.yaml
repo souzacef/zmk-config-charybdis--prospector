@@ -19,7 +19,7 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: charybdis_dongle dongle_screen
+    shield: charybdis_dongle
     snippet: zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_STUDIO=n
 
